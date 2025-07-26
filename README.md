@@ -1,6 +1,3 @@
-# Step 1: Create README.md with full content
-echo "# Employee API
-
 A simple Django REST Framework-based API for managing employee data using class-based views.
 
 ## 🚀 Features
