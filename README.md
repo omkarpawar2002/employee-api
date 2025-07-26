@@ -17,31 +17,31 @@ A simple Django REST Framework-based API for managing employee data using class-
 ## 📦 Setup Instructions
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/omkarpawar2002/employee-api.git
    cd employee-api
-   \`\`\`
+   ```
 
 2. **Create and activate a virtual environment**
-   \`\`\`bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\\Scripts\\activate
-   \`\`\`
+   ```
 
 3. **Install dependencies**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Run migrations**
-   \`\`\`bash
+   ```bash
    python manage.py migrate
-   \`\`\`
+   ```
 
 5. **Start the server**
-   \`\`\`bash
+   ```bash
    python manage.py runserver
-   \`\`\`
+   ```
 
 6. **Test Endpoints**
    - \`GET /employees/\` – List all employees
@@ -49,17 +49,15 @@ A simple Django REST Framework-based API for managing employee data using class-
    - \`GET /employees/<eid>/\` – Retrieve employee
    - \`PUT/PATCH /employees/<eid>/\` – Update employee
    - \`DELETE /employees/<eid>/\` – Delete employee
+   
 
 ## 🧾 Example JSON Payload
-
-\`\`\`json
 {
   \"eid\": \"EMP001\",
   \"name\": \"John Doe\",
   \"department\": \"Engineering\",
   \"salary\": 60000
 }
-\`\`\`
 
 ## 🧰 Notes
 
