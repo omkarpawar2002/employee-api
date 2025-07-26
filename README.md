@@ -65,6 +65,9 @@ A simple Django REST Framework-based API for managing employee data using class-
 ```
 
 
+## 📤 Git Commands
+
+```bash
 # Step 2: Initialize Git & Set Remote
 git init
 git remote add origin https://github.com/omkarpawar2002/employee-api.git
@@ -74,4 +77,5 @@ git add README.md
 git commit -m "Add project README"
 git branch -M main
 git push -u origin main
+```
 
