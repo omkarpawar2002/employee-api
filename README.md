@@ -44,19 +44,22 @@ A simple Django REST Framework-based API for managing employee data using class-
    ```
 
 6. **Test Endpoints**
-   - \`GET /employees/\` – List all employees
-   - \`POST /employees/\` – Create employee
-   - \`GET /employees/<eid>/\` – Retrieve employee
-   - \`PUT/PATCH /employees/<eid>/\` – Update employee
-   - \`DELETE /employees/<eid>/\` – Delete employee
+   - `GET /api/emp/` – List all employees
+   - `POST /api/emp/` – Create a new employee
+   - `GET /api/emp/<eid>/` – Retrieve a single employee
+   - `PUT /api/emp/<eid>/` – Fully update an employee
+   - `PATCH /api/emp/<eid>/` – Partially update an employee
+   - `DELETE /api/emp/<eid>/` – Delete an employee
+
    
 
 ## 🧾 Example JSON Payload
 {
-  \"eid\": \"EMP001\",
-  \"name\": \"John Doe\",
-  \"department\": \"Engineering\",
-  \"salary\": 60000
+    "eid": 102,
+    "name": "Omkar",
+    "age": 23,
+    "dept": "ADMIN",
+    "sal": 18000.0
 }
 
 ## 🧰 Notes
