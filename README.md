@@ -54,23 +54,16 @@ A simple Django REST Framework-based API for managing employee data using class-
    
 
 ## 🧾 Example JSON Payload
+```json
 {
-    "eid": 102,
-    "name": "Omkar",
-    "age": 23,
-    "dept": "ADMIN",
-    "sal": 18000.0
+  "eid": 102,
+  "name": "Omkar",
+  "age": 23,
+  "dept": "ADMIN",
+  "sal": 18000.0
 }
+```
 
-## 🧰 Notes
-
-- Make sure the \`eid\` field is unique if you're using it as a lookup field.
-- You can improve this API later with ViewSets and Routers for cleaner routing.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-" > README.md
 
 # Step 2: Initialize Git & Set Remote
 git init
@@ -81,3 +74,4 @@ git add README.md
 git commit -m "Add project README"
 git branch -M main
 git push -u origin main
+
